@@ -77,11 +77,12 @@ p{
 
 .ratings:hover {
     background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
 
 }
 
 .active {
-    background-color: white;
+    background-color: hsl(25, 97%, 53%);
 
 }
 .ratings p{
@@ -98,6 +99,7 @@ main button{
   padding: 11px 0px;
   font-size: 15px;
   color:hsl(0, 0%, 100%);
+  cursor: pointer;
 }
 
 #rating-result{
