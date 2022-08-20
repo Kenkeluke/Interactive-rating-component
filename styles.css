@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+body{
+    background-color:hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+.card{
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    padding: 40px 30px 30px 30px;
+    margin-top: 20%;
+    position: relative;
+
+}
+
+.circle-star {
+    background-color:hsl(210, 5%, 7%);
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.circle-star img{
+justify-self: center;
+height: 35%;
+width: 35%;
+margin-top: 30%;
+}
+
+
+
+ h2{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    margin: 30px 0px 5px 0px;
+    padding: 0px;
+    font-size: 33px;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 10px 20px 20px 0px;
+    line-height: 26px;
+    font-kerning: normal;   
+}
+
+.rating-list{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    width: 100%;
+    margin: 10px 0px 25px 0px;
+    padding: 0;
+    
+    }
+    
+.ratings{
+        background-color:hsl(210, 5%, 7%);
+        border-radius: 50%;
+        height: 53px;
+        width: 53px;
+        text-align: center;
+        
+    }
+.ratings p{
+    font-size: 15px;
+    padding: 17px; 
+        
+    }
+
+main button{
+  width: 100%;
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 20px;
+  border: none;
+  padding: 11px 0px;
+  font-size: 15px;
+  color:hsl(0, 0%, 100%);
+}
+
+#rating-result{
+   margin: 40px 0px 0px 0px ;
+   color: hsl(25, 97%, 53%);
+   background-color: hsl(210, 5%, 7%);
+   border-radius: 20px;
+   padding: 5px 10px;
+}
+
+section{
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    padding: 70px 0px 30px 0px;
+    margin-top: 20%;
+    position: relative;
+}
+
+section img{
+    width: 42%;
+}
+
+
+
+.center{
+     align-self: center;
+     text-align: center;
+}
+
+.hidden{
+    display: none
+}

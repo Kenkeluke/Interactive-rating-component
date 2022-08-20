@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Interactive Rating card</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+       <main id="first" class="card">
+        <!-- Rating card -->
+
+        <span class="circle-star">
+        <img src="./images/icon-star.svg" alt="icon-star" srcset="">
+            
+        </span>
+        <h2> How did we do?</h2>
+        <p>Please let us know how we did 
+            with your support <br>request.
+            All feedback is appreciated 
+            to help us <br>improve our offering!</p>
+        <ul id="list" class="rating-list">
+            <li class="ratings">
+                    <p>1</p>
+            </li>
+
+            <li class="ratings">
+             <p>2</p>
+            </li>
+
+            <li class="ratings">
+               <p>3</p> 
+            </li>
+
+            <li class="ratings">
+               <p>4</p>
+            </li>
+
+            <li class="ratings">
+             <p>5</p>
+            </li>
+        </ul>
+
+        <form action="">
+           <button value="submit"> SUBMIT </button>
+        </form>
+
+       </main>
+
+       <section id="Thank-you">
+        <img class="center" src="./images/illustration-thank-you.svg">
+            <p id="rating-result" class="center"> what you selected</p>
+        <h2 class="center"> Thank you!</h2>
+        <p class="center">
+            We appreciate you taking the time to give a rating.<br>
+             If you ever need more support, don’t hesitate to <br>
+            get in touch!
+        </p>
+
+       </section>
+        <script src="./app.js" async defer></script>
+    </body>
+</html>
