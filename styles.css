@@ -64,8 +64,8 @@ p{
     margin: 10px 0px 25px 0px;
     padding: 0;
     
-    }
-    
+}
+
 .ratings{
         background-color:hsl(210, 5%, 7%);
         border-radius: 50%;
@@ -73,7 +73,17 @@ p{
         width: 53px;
         text-align: center;
         
-    }
+}
+
+.ratings:hover {
+    background-color: hsl(25, 97%, 53%);
+
+}
+
+.active {
+    background-color: white;
+
+}
 .ratings p{
     font-size: 15px;
     padding: 17px; 
