@@ -9,7 +9,10 @@ body{
 }
 
 .card{
-    background-color: hsl(213, 19%, 18%);
+  
+   background-image: repeating-radial-gradient(circle at top,hsl(213, 19%, 18%), hsl(215, 22%, 11%));
+   /* for non-supporting browsers */
+   background-color:hsl(216, 12%, 8%);
     color: hsl(217, 12%, 63%);
     display: flex;
     flex-direction: column;
@@ -119,14 +122,7 @@ button:hover{
 }
 
 section{
-    background-color: hsl(213, 19%, 18%);
-    color: hsl(217, 12%, 63%);
-    display: flex;
-    flex-direction: column;
-    border-radius: 30px;
     padding: 70px 20px 30px 20px;
-    margin-top: 8%;
-    position: relative;
 }
 
 section img{
