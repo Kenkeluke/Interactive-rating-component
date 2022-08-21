@@ -13,3 +13,9 @@ console.log(value);
 secondCard.childNodes[3].textContent = `You selected ${value} out of 5`;
 })
 
+
+button.addEventListener('click', function(e){
+    e.preventDefault();
+    firstCard.classList.add('hidden');
+    secondCard.classList.remove('hidden');
+})
