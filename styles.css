@@ -10,7 +10,7 @@ body{
 
 .card{
   
-   background-image: repeating-radial-gradient(circle at top,hsl(212, 21%, 16%), hsl(221, 28%, 11%));
+   background-image:radial-gradient(circle at top,hsl(210, 10%, 20%),hsl(210, 16%, 15%),hsl(229, 25%, 13%), hsl(229, 24%, 14%));
    /* for non-supporting browsers */
    background-color:hsl(216, 12%, 8%);
     color: hsl(217, 12%, 63%);
