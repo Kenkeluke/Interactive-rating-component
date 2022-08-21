@@ -13,15 +13,16 @@ body{
     color: hsl(217, 12%, 63%);
     display: flex;
     flex-direction: column;
-    border-radius: 30px;
+    border-radius: 18px;
     padding: 40px 30px 30px 30px;
     margin-top: 8%;
     position: relative;
+    width: 26%;
 
 }
 
 .circle-star {
-    background-color:hsl(210, 5%, 7%);
+    background-color:hsl(220, 16%, 22%);
     border-radius: 50%;
     height: 45px;
     width: 45px;
@@ -50,7 +51,7 @@ p{
     font-size: 15px;
     font-weight: 400;
     margin: 0px;
-    padding: 10px 20px 20px 0px;
+    padding: 10px 10px 20px 0px;
     line-height: 26px;
     font-kerning: normal;   
 }
@@ -67,7 +68,7 @@ p{
 }
 
 .ratings{
-        background-color:hsl(210, 5%, 7%);
+        background-color:hsl(220, 16%, 22%);
         border-radius: 50%;
         height: 53px;
         width: 53px;
@@ -82,7 +83,8 @@ p{
 }
 
 .active {
-    background-color: hsl(25, 97%, 53%);
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
 
 }
 .ratings p{
@@ -91,7 +93,7 @@ p{
         
     }
 
-main button{
+button{
   width: 100%;
   background-color: hsl(25, 97%, 53%);
   border-radius: 20px;
@@ -102,10 +104,16 @@ main button{
   cursor: pointer;
 }
 
+button:hover{
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%);
+    
+  }
+
 #rating-result{
    margin: 40px 0px 0px 0px ;
    color: hsl(25, 97%, 53%);
-   background-color: hsl(210, 5%, 7%);
+   background-color: hsl(220, 16%, 22%);
    border-radius: 20px;
    padding: 5px 10px;
 }
@@ -116,7 +124,7 @@ section{
     display: flex;
     flex-direction: column;
     border-radius: 30px;
-    padding: 70px 0px 30px 0px;
+    padding: 70px 20px 30px 20px;
     margin-top: 8%;
     position: relative;
 }
@@ -134,4 +142,56 @@ section img{
 
 .hidden{
     display: none
+}
+
+@media only screen and (max-width: 600px) {
+    .card{
+        width:84%;
+        padding: 20px 20px 20px 20px;
+        margin-top: 25%;
+    }
+
+    .circle-star {
+        height: 35px;
+        width: 35px;
+    }
+    
+    .circle-star img{
+    height: 35%;
+    width: 35%;
+
+    }
+    
+    
+    
+     h2{
+        color: hsl(0, 0%, 100%);
+        font-weight: 700;
+        margin: 30px 0px 5px 0px;
+        padding: 0px;
+        font-size: 23px;
+    }
+    
+    p{
+        padding: 10px 5px 30px 0px;
+        line-height: 22px;
+        font-kerning: normal;   
+    }
+    
+    .rating-list{
+        margin: 0px 0px 15px 0px;
+        
+    }
+    
+    .ratings{
+            height: 43px;
+            width: 43px;
+            
+    }
+    
+    .ratings p{
+        font-size: 15px;
+        padding: 12px 15px; 
+            
+        }
 }
