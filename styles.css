@@ -10,7 +10,7 @@ body{
 
 .card{
   
-   background-image: repeating-radial-gradient(circle at top,hsl(213, 19%, 18%), hsl(215, 22%, 11%));
+   background-image: repeating-radial-gradient(circle at top,hsl(212, 21%, 16%), hsl(221, 28%, 11%));
    /* for non-supporting browsers */
    background-color:hsl(216, 12%, 8%);
     color: hsl(217, 12%, 63%);
@@ -73,8 +73,8 @@ p{
 .ratings{
         background-color:hsl(220, 16%, 22%);
         border-radius: 50%;
-        height: 53px;
-        width: 53px;
+        height: 51px;
+        width: 51px;
         text-align: center;
         
 }
